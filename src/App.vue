@@ -44,3 +44,36 @@
     }
 </script>
 
+<style>
+    .flip-enter {
+
+    }
+    .flip-enter-active {
+
+    }
+    .flip-leave {
+
+    }
+    .flip-leave-active {
+
+    }
+
+    @keyframes flip-out {
+        from {
+            transform: rotateY(0deg);
+        } to {
+            transform: rotateY(90deg);
+
+        }
+    }
+
+    @keyframes flip-in {
+        from {
+            transform: rotateY(90deg);
+        } to {
+            transform: rotateY(0deg);
+        }
+    }
+</style>
+
+
