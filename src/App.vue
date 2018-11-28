@@ -45,17 +45,12 @@
 </script>
 
 <style>
-    .flip-enter {
-
-    }
     .flip-enter-active {
-
+        animation: flip-in 500ms ease-out forwards;
     }
-    .flip-leave {
 
-    }
     .flip-leave-active {
-
+                animation: flip-out 500ms ease-out forwards;
     }
 
     @keyframes flip-out {
